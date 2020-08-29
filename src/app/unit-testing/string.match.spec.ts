@@ -1,6 +1,7 @@
 //Testing String in Jasmine
 
 describe('Match string', () => {
+  //toBe function
   it('Testing String', () => {
     let testStr = 'Hello World';
     expect(testStr).toBe('Hello World');
